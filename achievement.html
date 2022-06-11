@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <title> EVERYTHING ABOUT ASRUL YOU SHOULD KNOW </title>
+   <link rel="stylesheet" href="style3.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+	<nav>
+	    <a href="main.html"><img src="image/ME.jpeg" width='15%' bgcolor=white></a> 
+		  <div class="nav-links" id="navLinks">
+		   <i class="fa fa-times" onclick="hideMenu()"></i>
+		    <ul>m
+			    <li><a href="index.html">HOME</a></li>
+				<li><a href="educational.html">EDUCATION LEVEL</a></li>
+				<li><a href="achievement.html">ACHIEVEMENT</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		 </div>
+		 <i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	  <div class="text-box">
+	    <h1>BERHENTILAH MENJADI PAYUNG,KERANA DIA SUDAH BERSAMA PELANGI.DAN JANGANLAH MENJADI PELANGI PADA ORANG YANG BUTA WARNA.</h1>
+		<p>“Wake up to reality! Nothing ever goes as planned in this accursed world. The longer you live, the more you realize that the only things that truly exist in this reality are merely pain.<br>suffering and futility.”</p>
+		<a href="https://open.spotify.com/playlist/2aZuoSix6LYMoeokIL4i4z?si=ie_yhCeLQBioYv6XDcYWyg" target="_blank" class="play">Sendu songs here!</a>
+	  </div>
+	  </section>
+	  
+	  <section class="container">
+	  
+	    <input type="radio" name="images" id="i1" checked>
+	    <input type="radio" name="images" id="i2">
+	  
+	    <div class="slide_img" id="one">
+		  <img src="image/achievement.jpg">
+		  <label for="i2" class="nxt"></label>
+		</div>
+		
+		<div class="slide_img" id="two">
+		  <img src="image/softskills.jpg">
+		  <label for="i1" class="pre"></label>
+		</div>
+		
+		<div class="nv">
+		   <label class="dots" id="dot1" for="i2"></label>
+		   <label class="dots" id="dot2" for="i1"></label>
+		</div><br>
+		
+		<div class="icon">
+	       <ul>
+		  <li><a href="https://www.facebook.com/asrul.azeem.50" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		  <li><a href="https://www.instagram.com/p/ByejHujJJDL/?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		  <li><a href="https://twitter.com/asrlazeem/status/1160533631485374470?t=2l56YbPb7kqgH87Zo-6CAA&s=19" target="_blank"><i class="fa fa-twitter"></i></a></li>
+		   </ul>
+	    </div>
+		
+	  </section>
+
+    <table border='2' bgcolor="#ed2147">
+         <tr>
+         <td><center><img src="image/ac1.jpg" width="80%"></center></td>
+         <td>
+         <center><video controls>
+         <source src='image/ac2.mp4' type='video/mp4' size='15%'>
+         </video></center></td>
+         </tr>
+
+         </table><br><br><hr>
+	  
+	  
+<!---------JavaScript---->
+
+  <script>
+  var navLinks = document.getElementById("navLinks");
+  
+  function showMenu(){
+  navLinks.style.right= "0";
+  }
+  function hideMenu(){
+  navLinks.style.right= "-200px";
+  </script>
+
+</body>
+</html>

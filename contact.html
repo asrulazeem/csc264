@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <title> EVERYTHING ABOUT ASRUL YOU SHOULD KNOW </title>
+   <link rel="stylesheet" href="style4.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ 
+   <div class="hero">
+   
+    <video autoplay loop muted plays-inline class="backvid">
+	  <source src="image/back.mp4" type="video/mp4">
+	</video>
+   
+    <nav>
+    <img src="image/ME.jpeg" class="logo">
+    <div class="nav-links" id="navLinks">
+		<i class="fa fa-times" onclick="hideMenu()"></i>
+	  <ul>
+	    <li><a href="index.html">HOME</a></li>
+		<li><a href="educational.html">EDUCATIONAL LEVEL</a></li>
+		<li><a href="achievement.html">ACHIEVEMENT</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+	  </ul>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	
+	<div class="content">
+	  <h1>" Z E E M A X "</h1>
+	  <a href="ign.html">LETS HAVE SOME FUN AND CHAT AS RANDOM</a>
+	</div>
+   </div> 
+   
+   <section>
+    <div class="container">
+	 <div class="contact-box">
+	    <div class="left"></div>
+		<div class="right">
+		   <h2>Contact Me</h2>
+		   <input type="text" class="field" placeholder="Your name">
+		   <input type="email" class="field" placeholder="Your email">
+		   <input type="instagram" class="field" placeholder="Your instagram">
+		   <textarea class="field" placeholder="Message"></textarea>
+		   <button class="btn">Send</button><hr>
+		   <button class="btn"><a href="subscribe.html" target="_blank" >Subscribe</button>
+		</div>
+	 </div>
+	</div>
+	
+		<div class="icon">
+	       <ul>
+		  <li><a href="https://www.facebook.com/asrul.azeem.50" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		  <li><a href="https://www.instagram.com/p/ByejHujJJDL/?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		  <li><a href="https://twitter.com/asrlazeem/status/1160533631485374470?t=2l56YbPb7kqgH87Zo-6CAA&s=19" target="_blank"><i class="fa fa-twitter"></i></a></li>
+		   </ul>
+	    </div>
+	
+   </section>
+
+<!---------JavaScript---->
+
+  <script>
+  var navLinks = document.getElementById("navLinks");
+  
+  function showMenu(){
+  navLinks.style.right= "0";
+  }
+  function hideMenu(){
+  navLinks.style.right= "-200px";
+  </script>
+
+</body>
+</html>

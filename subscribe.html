@@ -1,0 +1,77 @@
+<html> 
+<head>
+<title>Subscribtion</title>
+
+<script>
+function validateForm() {
+  var a = document.forms["form 1"]["myName"].value;
+  var b = document.forms["form 1"]["pass"].value;
+  var c = document.forms["form 1"]["myGender"].value;
+  
+  if (a == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+  if (b == "") {
+    alert("Number must be filled out");
+    return false;
+  }  
+  if (c == "") {
+    alert("Gender must be filled out");
+    return false;
+  }
+}
+</script>
+
+
+</head>
+
+<body background='image/subs.gif'>
+
+    <marquee width="100%" behavior="alternate" bgcolor="pink">
+	<b><i><h2><p><img src="image/logo.gif" width='6%'>
+	<-- Please insert all the details below, once i reach my target of subscribers, i'm gonna drop our first merch! lets go!>
+	<img src="image/logo.gif" width='6%'></p></h2></i></b></marquee>
+
+<center><table border=1>
+    <tr>
+    <td bgcolor='pink' colspan=2 align=center><font color='purple' size='40' face='Comic San'><blockquote><center><i> HOLA! BONJOUR! SALVE! KONNICHIWA! </tr>
+	</table></center><br>
+	
+	<center><table border=1>
+    <tr>
+    <td bgcolor='pink' colspan=2 align=center><font color='purple' size='5 face='Comic San'><blockquote><center><i> “Some people make the world special just by being in it.”</tr>
+	</table></center><br>
+	
+	<center><table border=1>
+    <tr>
+    <td bgcolor='pink' align=center><center> <form name="form 1" method="post" action="https://padlet.com/asrlazeem23/zeemax_" onsubmit="return validateForm()">
+
+NAME :<br><input type="text" name="myName" size="50"><br>
+
+PHONE NUMBER : <br><input type="password" name="pass" size="12"><br>
+
+GENDER :<br><input type="radio" name="myGender" value="Male"> Male
+            <input type="radio" name="myGender" value="Female"> Female<br>
+
+
+AGE : <br><select name="Age">
+          <option> Please choose your age
+          <option value="17">17 years old
+          <option value="18">18 years old
+          <option value="19">19 years old
+          <option value="20">20 years old
+          </select><br>
+
+WHO AM I TO YOU: <br><input type="checkbox" name="FR">FRIEND
+                 <input type="checkbox" name="CF">CLOSE FRIEND
+                 <input type="checkbox" name="PB">NEVER MET<br>
+
+P/S : <br><textarea name="Visions" rows="4" cols="50"></textarea><br>
+
+<p><input type="Submit" name="Submit" value="Submit"></p>
+<p><input type="reset" name="Reset" value="Reset"></p> </tr>
+</table></center><br>	
+	
+</body>
+</html>
